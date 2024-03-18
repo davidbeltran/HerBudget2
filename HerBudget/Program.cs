@@ -1,3 +1,5 @@
+using UglyToad.PdfPig;
+
 namespace HerBudget
 {
     internal class Program
