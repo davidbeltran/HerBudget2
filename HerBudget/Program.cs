@@ -6,7 +6,16 @@ namespace HerBudget
     {
         static void Main(string[] args)
         {
-            WebStarter ws = new WebStarter(args);
+
+            using (PdfDocument document = PdfDocument.Open("NovDec.pdf"))
+            {
+                foreach (Page page in document.GetPages())
+                {
+                    string pageText = page.Text;
+                }
+            }
+
+                WebStarter ws = new WebStarter(args);
             ws.ShowWeb();
         }
     }
