@@ -9,8 +9,6 @@
 *.user
 *.userosscache
 *.sln.docstates
-*.pdf
-*.txt
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -363,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# ignore all .txt files
+*.txt
+
+# ignore all .pdf files
+*.pdf
