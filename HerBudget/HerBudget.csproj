@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="PdfPig" Version="0.1.8" />
+    <PackageReference Include="System.Collections.NonGeneric" Version="4.3.0" />
   </ItemGroup>
 
 </Project>
